@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Validacion jquery (formularios)</title>
+	<link rel="stylesheet" href="css/estilos.css">
+	<script  src="js/jquery-2.0.3.min.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+
+	<!--<style type="text/css">
+	body{
+
+		background: url("nav-bg.png");
+		padding-top: 100px;
+	}
+
+	</style>-->
+
+</head>
+<body>
+	<div id="container">
+		<div id="h"><h2>Registro del Administrador</h2></div><!--H-->
+		<div id="foto"><h2></h2></div><!--foto-->
+		<form  action="Login.html" method="post" id="formulario">
+	<label>*Nombre:</label><br>
+	<input type="text" id="itNombre" class="campo" name="nombre" placeholder="Nombre">
+	<div id="mensaje1" class="errores">Ingrese su nombre completo </div> 
+	<br><br>
+	<label>*Usuario:</label><br>
+	<input type="text" id="itUsuario" class="campo" name="nombre" placeholder="Usuario">
+	<div id="mensaje2" class="errores">Ingrese un usuario </div>
+	<br><br>
+	<label>*Contraseña:</label><br>
+	<input type="password" id="itContra" class="campo" name="nombre" placeholder="Password">
+	<div id="mensaje3" class="errores">Introduce una contraseña </div>
+	<br><br>
+	<label>*verificar contraseña:</label><br>
+	<input type="password" id="itVContra" class="campo" name="nombre" placeholder="V_Password">
+	<div id="mensaje4" class="errores">Verifica la contraseña </div>
+	<br><br>
+	<label>*Correo Electr&oacute;nico:</label><br>
+	<input type="text" id="itMail" class="campo" name="contenido" placeholder="Correo Electronico"><br>
+	<div id="mensaje5" class="errores">Dame un mail correcto</div> 
+	<br>
+	<label>*Facebook:</label><br>
+	<input type="text" id="itFacebook" class="campo" name="nombre" placeholder="Facebook">
+	<br><br>
+	<div id="mensaje6" class="errores">Dame tu Facebook</div>
+	<label>*Twitter:</label><br>
+	<input type="text" id="itTwitter" class="campo" placeholder="Twitter">
+	<br><br>
+	<div id="mensaje7" class="errores">Dame tu Twitter</div>
+
+
+
+	<input type="submit" value="Enviar datos" class="boton" id="bEnviar">
+	</form><!--formulario-->
+
+</div><!--container-->
+
+<div id="footer">
+			
+		</div><!--footer-->
+
+
+
+	
+</body>
+</html>
